@@ -19,13 +19,13 @@
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
-  <link rel="stylesheet" href="./assets/styles/styleCV.css">
   <link rel="stylesheet" href="./assets/styles/style.css">
 </head>
 
 <body>
-    <?php 
+    <?php  // <?= "texte" ?/> pour echo
         include './src/devtool/debug.devtool.php';
+        include './src/database.php';
 
         $config =[
             'passwordHttp' => 'untrukopif',
@@ -60,6 +60,10 @@
                         [
                             "name" => "Me contacter",
                             "href" => "contact"
+                        ],
+                        [
+                            "name" => "Qui suis-je ?",
+                            "href" => "essai"
                         ],
                     ];
 

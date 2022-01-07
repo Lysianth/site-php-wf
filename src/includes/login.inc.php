@@ -20,6 +20,9 @@ switch ($page) {
     case 'profile':
         include './src/includes/profile.inc.php';
         break;
+    case 'essai':
+        include './src/includes/essai.inc.php';
+        break;
     default:
         include './src/includes/accueil.inc.php';
         break;
